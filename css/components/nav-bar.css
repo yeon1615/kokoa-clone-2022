@@ -9,7 +9,34 @@
 .nav__list {
   display: flex;
   justify-content: space-around;
-}
-.nav__list {
   color: #2f363e;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  right: -10px;
+  top: -7px;
+}
+.nav__ellipsis-notification {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+.nav__ellipsis-notification {
+  position: absolute;
+  top: -5px;
+  right: -8px;
 }
