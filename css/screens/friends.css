@@ -13,10 +13,6 @@
   padding: 0 3px;
 }
 
-.friends-screen {
-  margin: 0 var(--horizontal-space);
-}
-
 .friends-screen__channel {
   color: inherit;
   margin-top: 7px;
