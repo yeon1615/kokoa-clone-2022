@@ -19,4 +19,14 @@
 
 .friends-screen__channel {
   color: inherit;
+  margin-top: 7px;
+}
+
+.friends-screen__channel-header {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
 }
