@@ -12,3 +12,11 @@
   color: #d5d5d5;
   padding: 0 3px;
 }
+
+.friends-screen {
+  margin: 0 var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  color: inherit;
+}
