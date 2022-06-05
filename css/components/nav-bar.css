@@ -15,16 +15,6 @@
   position: relative;
 }
 .nav__notification {
-  background-color: tomato;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
-  font-size: 12px;
   position: absolute;
   right: -10px;
   top: -7px;
