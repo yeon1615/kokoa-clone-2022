@@ -1,0 +1,21 @@
+.user-component,
+.user-component__column {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin: 0 20px;
+}
+.user-component__title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.user-component__subtitle {
+  margin-top: 9px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+}
