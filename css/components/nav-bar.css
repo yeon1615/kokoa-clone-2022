@@ -24,8 +24,6 @@
   width: 6px;
   height: 6px;
   border-radius: 3px;
-}
-.nav__ellipsis-notification {
   position: absolute;
   top: -5px;
   right: -8px;
