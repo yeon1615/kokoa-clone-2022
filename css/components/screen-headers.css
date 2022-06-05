@@ -1,6 +1,6 @@
 .screen-header {
   display: flex;
-  margin: 50px var(--horizontal-space);
+  margin: 50px var(--horizontal-space) 25px var(--horizontal-space);
   justify-content: space-between;
   align-items: center;
 }

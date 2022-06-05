@@ -22,10 +22,13 @@
   height: 60px;
   border-radius: 23px;
 }
+
+.user-component__text {
+  margin: 0 15px;
+}
 .user-component__title {
   font-size: 22px;
   font-weight: 600;
-  margin: 0 15px;
 }
 .user-component__subtitle {
   margin-top: 9px;
