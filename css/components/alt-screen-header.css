@@ -14,3 +14,6 @@
 .alt-header__column:last-child {
   margin-left: auto;
 }
+.alt-header__column:last-child i {
+  margin-left: 20px;
+}
