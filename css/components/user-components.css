@@ -35,6 +35,10 @@
   color: rgba(0, 0, 0, 0.3);
   font-size: 17px;
 }
+.user-component__subtitle i {
+  color: tomato;
+  margin-left: 3px;
+}
 .user-component__title--not-bold {
   font-weight: 400;
 }

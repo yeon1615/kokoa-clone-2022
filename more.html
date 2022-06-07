@@ -22,13 +22,15 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
+    <header class="screen-header more-screen-header">
       <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span>
-          <a href="settings.html"> <i class="fa-solid fa-gear fa-lg"></i></a
+          <a href="settings.html">
+            <i class="fa-solid fa-gear fa-lg"></i>
+            <div class="nav__new-notification"></div></a
         ></span>
       </div>
     </header>
@@ -38,7 +40,9 @@
           <img src="userprofile_edit.jpg" class="user-component__avatar" />
           <div class="user-component__text">
             <h4 class="user-component__title">Praw</h4>
-            <h6 class="user-component__subtitle">+1 787-493-4219</h6>
+            <h6 class="user-component__subtitle">
+              +1 787-493-4219 <i class="fa-solid fa-circle-exclamation"></i>
+            </h6>
           </div>
         </div>
         <div class="user-component__column">
@@ -46,25 +50,30 @@
         </div>
       </div>
       <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="fa-regular fa-calendar-check fa-2xl"></i
-          ><span>Calendar</span>
+        <div class="icon-row__column">
+          <div class="icon-row__icon">
+            <i class="fa-regular fa-calendar-check fa-2xl"></i
+            ><span>Calendar</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-folder-open fa-2xl"></i
+            ><span>Talk Drive</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-face-smile fa-2xl"></i><span>Emoticons</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-brush fa-2xl"></i><span>Themes</span>
+          </div>
         </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-folder-open fa-2xl"></i><span>Talk Drive</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-face-smile fa-2xl"></i><span>Emoticons</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-brush fa-2xl"></i><span>Themes</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-file-invoice-dollar fa-2xl"></i
-          ><span>Account</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-comments fa-2xl"></i><span>Openchat</span>
+        <div class="icon-row__column">
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-file-invoice-dollar fa-2xl"></i
+            ><span>Account</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-comments fa-2xl"></i><span>Openchat</span>
+          </div>
         </div>
       </div>
       <div class="more-suggestions">
@@ -78,9 +87,19 @@
           </div>
           <div class="more-suggestions__icon">
             <div class="more-suggestions__icon-img">
-              <i class="fa-solid fa-quote-right fa-2xl"></i>
+              <img
+                src="https://apprecs.org/gp/images/app-icons/300/77/com.kakao.talk.theme.ryan.jpg"
+              />
             </div>
-            <span class="more-suggestions__icon-text">Cocoa Story</span>
+            <span class="more-suggestions__icon-text">Cocoa Friends</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-img">
+              <img
+                src="https://image.winudf.com/v2/image/Y29tLmtha2FvZ2FtZXMuZnJpZW5kc0phbV9pY29uXzE1Mjg5ODQ2NTJfMDk4/icon.png?w=&fakeurl=1"
+              />
+            </div>
+            <span class="more-suggestions__icon-text">Friends Gem</span>
           </div>
         </div>
       </div>
@@ -106,7 +125,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <div class="nav__ellipsis-notification"></div>
+            <div class="nav__new-notification"></div>
             <i class="fa-solid fa-ellipsis fa-xl"></i>
           </a>
         </li>
