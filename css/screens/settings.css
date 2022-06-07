@@ -1,0 +1,12 @@
+.settings__setting {
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+.settings__setting i {
+  margin-left: 5px;
+  margin-right: 25px;
+}
