@@ -12,8 +12,20 @@
 .chat-screen .alt-header {
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 .main-chat {
   padding-top: 20px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat__timestamp {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  opacity: 0.6;
+  padding: 9px 15px;
+  border-radius: 30px;
+  font-size: 15px;
 }
