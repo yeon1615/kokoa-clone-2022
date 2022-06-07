@@ -10,3 +10,30 @@
   font-weight: 500;
   margin-bottom: 20px;
 }
+.more-suggestions__icon-row {
+  display: flex;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggestions__icon-img {
+  width: 50px;
+  height: 50px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.more-suggestions__icon-img i {
+  color: white;
+  font-size: 30px;
+}
+.more-suggestions__icon-text {
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 500;
+}
