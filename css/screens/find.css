@@ -82,3 +82,22 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes heartbeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(2);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartbeat 0.7s ease-in-out infinite;
+}
