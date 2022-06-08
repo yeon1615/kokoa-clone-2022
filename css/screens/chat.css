@@ -87,7 +87,7 @@
 }
 .reply__column:first-child {
   width: 10%;
-  color: var();
+  color: var(--gray);
 }
 .reply__column:last-child {
   width: 90%;

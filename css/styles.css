@@ -22,7 +22,7 @@
 body {
   color: #2f363e;
   font-family: "Open Sans", sans-serif;
-  height: 200vh;
+  height: 100vh;
 }
 .main-screen {
   margin: 0 var(--horizontal-space);
